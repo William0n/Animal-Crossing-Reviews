@@ -1,7 +1,7 @@
 # Animal Crossing: New Reviews 
 ## Introduction 
 
-With the release of Nintendo's new 2020 Animal Crossing game, it is inevitable that there will also be a variety of reviews on the horizon. This was a great opportunity to apply some Natural Language Processing (NLP) while also seeing how good the game is before I purhcase my own copy. In this project, my goal is to utilize Tensorflow's text preprocessing and encoding functions on the reviews and predict whether or not the review is positive or negative. 
+With the release of Nintendo's new 2020 Animal Crossing game, it is inevitable that there will also be a variety of reviews on the horizon. This was a great opportunity to apply some Natural Language Processing (NLP) while also seeing how good the game is before I purchase my own copy. In this project, my goal is to utilize Tensorflow's text preprocessing and encoding functions on the reviews and predict whether or not the review is positive or negative. 
 
 
 ## Packages and Resources  
@@ -55,7 +55,7 @@ lstm_model = tf.keras.models.Sequential([
 
 ## Conclusion 
 
-Overall, the model performed extremely well on the training set with an accuracy of 99.8%. Although there was a noticeable discrepency between the training set and the validation set (~15%), the model's performance on the validation set was still relatively high as the accuracy was almost at 85%. In addition, the model achieved an accruacy of 82% on the test set which was quite close to the validation set results. It should also be mentioned that the model only ran for a total of 10 epochs, thus, the results could potentially be significantly improved if the number of epochs increased. 
+Overall, the model performed extremely well on the training set with an accuracy of 99.8%. Although there was a noticeable discrepancy between the training set and the validation set (~15%), the model's performance on the validation set was still relatively high as the accuracy was almost at 85%. In addition, the model achieved an accuracy of 82% on the test set which was quite close to the validation set results. It should also be mentioned that the model only ran for a total of 10 epochs, thus, the results could potentially be significantly improved if the number of epochs increased.
 
 
 
